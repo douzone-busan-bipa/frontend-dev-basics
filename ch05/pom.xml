@@ -16,7 +16,7 @@
 	</properties>
 	
 	<build>
-		<finalName>ch04</finalName>
+		<finalName>ch05</finalName>
 		<plugins>
 			<plugin>
 			    <groupId>org.apache.maven.plugins</groupId>
