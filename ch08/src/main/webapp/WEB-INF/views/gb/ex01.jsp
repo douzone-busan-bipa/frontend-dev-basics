@@ -11,7 +11,7 @@
 <script>
 var render = function(vo, mode) {
 	var htmls = 
-		"<li data-no=''>" +
+		"<li data-no='" + vo.no + "'>" +
 		"<strong>" + vo.name + "</strong>" +
 		"<p>" + vo.message + "</p>" +
 		"<strong></strong>" +
@@ -20,6 +20,7 @@ var render = function(vo, mode) {
 	
 	$("#list-guestbook")[mode ? "append" : "prepend"](htmls);
 }
+
 
 $(function() {
 	$("#add-form").submit(function(event){
